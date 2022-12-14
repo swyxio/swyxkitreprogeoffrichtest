@@ -4,13 +4,13 @@ import adapter from '@sveltejs/adapter-netlify';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	extensions: ['.svelte', ...mdsvexConfig.extensions],
+	// extensions: ['.svelte', ...mdsvexConfig.extensions],
 
 	kit: {
 		adapter: adapter()
-	},
+	}
 
-	preprocess: [mdsvex(mdsvexConfig)]
+	// preprocess: [mdsvex(mdsvexConfig)]
 };
 
 export default config;
