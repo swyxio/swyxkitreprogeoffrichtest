@@ -1,3 +1,6 @@
+// must be page.server.js not page.js
+// otherwise https://github.com/sw-yx/swyxkit/pull/145#issuecomment-1364177399 happens
+
 import { error } from '@sveltejs/kit';
 import { REPO_URL } from '$lib/siteConfig';
 
