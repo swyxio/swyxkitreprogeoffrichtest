@@ -34,6 +34,8 @@
 		"remark": "^14.0.2",
 		"remark-abbr": "^1.4.1",
 		"remark-github": "^11.2.4",
+		"remark-html": "^15.0.1",
+		"rss": "^1.2.2",
 		"satori": "^0.0.44",
 		"satori-html": "^0.3.2",
 		"snarkdown": "^2.0.0",
