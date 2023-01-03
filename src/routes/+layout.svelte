@@ -1,4 +1,5 @@
 <script>
+	import '../tailwind.css';
 	import 'prismjs/themes/prism-tomorrow.css';
 </script>
 
