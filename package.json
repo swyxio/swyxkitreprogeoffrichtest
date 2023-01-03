@@ -19,17 +19,24 @@
 		"@sveltejs/kit": "^1.0.1",
 		"@tailwindcss/typography": "^0.5.8",
 		"autoprefixer": "^10.4.13",
+		"date-fns": "^2.29.3",
+		"gray-matter": "^4.0.3",
 		"mdsvex": "^0.10.6",
+		"parse-link-header": "^2.0.0",
 		"postcss": "^8.4.20",
 		"postcss-load-config": "^4.0.1",
 		"prettier": "^2.8.1",
 		"prettier-plugin-svelte": "^2.9.0",
+		"prism-themes": "^1.9.0",
 		"rehype-autolink-headings": "^6.1.1",
 		"rehype-slug": "^5.1.0",
+		"rehype-stringify": "^9.0.3",
+		"remark": "^14.0.2",
 		"remark-abbr": "^1.4.1",
 		"remark-github": "^11.2.4",
 		"satori": "^0.0.44",
 		"satori-html": "^0.3.2",
+		"snarkdown": "^2.0.0",
 		"svelte": "^3.55.0",
 		"svelte-check": "^3.0.1",
 		"svelte-preprocess": "^5.0.0",
@@ -37,5 +44,8 @@
 		"typescript": "^4.9.4",
 		"vite": "^4.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"sveltekit-search-params": "^0.1.12"
+	}
 }
